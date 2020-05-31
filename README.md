@@ -14,7 +14,7 @@ So, I hacked together a simple program showing the simplest http request example
 cargo new http-example
 ```
 
-### Getting dependencies
+### Getting the dependencies
 > Put this in your Cargo.toml file:
 ```toml
 [package]
