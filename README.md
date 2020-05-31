@@ -10,7 +10,7 @@ So, I hacked together a simple program showing the simplest http request example
 
 ### Setting up a new project
 > run the following command:
->    cargo new http-example
+```bash cargo new http-example```
 
 ### Getting dependencies
 > Put this in your Cargo.toml file:
