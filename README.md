@@ -14,7 +14,7 @@ So, I hacked together a simple program showing the simplest http request example
 
 ### Getting dependencies
 > Put this in your Cargo.toml file:
-> ```toml
+```toml
 [package]
 name = "http-example"
 version = "0.1.0"
@@ -31,7 +31,7 @@ tokio = { version = "0.2", features = ["full"] }
 
 ### The actual code
 > Put this in your src/main.rs
-> ```rust
+```rust
 use futures::executor::block_on;
 
 #[tokio::main]
